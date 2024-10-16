@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table,th,td {
+            border: 2px solid black;
+            /*border-collapse: collapse;*/
+            border-spacing: 5px;
+            padding: 2px;
+            text-align: center;
+        }
+        table tr th{
+            /*background-color: lightgray;*/
+        }
+
+        tr:nth-child(2n+1){
+            background-color: lightgrey;
+        }
+
+    </style>
+    <title>Tables</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>
+                sr.no.
+            </th>
+            <th>
+                Product_Name
+            </th>
+            <th>
+                Price
+            </th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                Laptop
+            </td>
+            <td>
+                60000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Phone
+            </td>
+            <td>
+                20000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Bike
+            </td>
+            <td>
+                125000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4
+            </td>
+            <td>
+                Car
+            </td>
+            <td>
+                7000000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                House
+            </td>
+            <td>
+                5000000
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                6
+            </td>
+            <td>
+                Laptop
+            </td>
+            <td>
+                60000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Phone
+            </td>
+            <td>
+                20000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                8
+            </td>
+            <td>
+                Bike
+            </td>
+            <td>
+                125000
+            </td>
+        </tr>
+        <tr>
+            <td>
+                9
+            </td>
+            <td>
+                Car
+            </td>
+            <td>
+                7000000
+            </td>
+        </tr>
+        <tr >
+            <td rowspan="2">
+                10
+            </td>
+            <td>
+                House
+            </td>
+            <td>
+                5000000
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                11
+            </td>
+            <td>
+                House
+            </td>
+        </tr>
+
+        <tr aria-rowspan="2">
+
+            <td>
+                House
+            </td>
+            <td>
+                5000000
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
