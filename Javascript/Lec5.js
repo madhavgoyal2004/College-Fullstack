@@ -43,13 +43,13 @@ function func4(d){
     let a = 10;
     let b = 20;
     return ((e)=>{
-        let c = 30;
+        let c = 40;
         return ((f)=>{
-            return a+b+c + d + e+f;
-        })()
-    })()
+            return a+b+c+d+e+f;
+        })
+    })
 }
 
-let rv = func4(1)
+let rv = func4(50)()()
 
 console.log(rv)
